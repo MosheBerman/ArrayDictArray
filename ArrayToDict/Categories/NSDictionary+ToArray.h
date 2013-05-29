@@ -10,4 +10,6 @@
 
 @interface NSDictionary (ToArray)
 
+- (NSArray *)array;
+
 @end
