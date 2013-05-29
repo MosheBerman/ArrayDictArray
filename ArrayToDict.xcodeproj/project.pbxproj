@@ -21,6 +21,10 @@
 		46EB05BB1755B9FB00023817 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB059C1755B9FB00023817 /* Foundation.framework */; };
 		46EB05C31755B9FB00023817 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46EB05C11755B9FB00023817 /* InfoPlist.strings */; };
 		46EB05C61755B9FB00023817 /* ArrayToDictTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB05C51755B9FB00023817 /* ArrayToDictTests.m */; };
+		46EB05DA1755BB0F00023817 /* NSArray+ToDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB05D71755BB0F00023817 /* NSArray+ToDictionary.m */; };
+		46EB05DB1755BB0F00023817 /* NSArray+ToDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB05D71755BB0F00023817 /* NSArray+ToDictionary.m */; };
+		46EB05DC1755BB0F00023817 /* NSDictionary+ToArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB05D91755BB0F00023817 /* NSDictionary+ToArray.m */; };
+		46EB05DD1755BB0F00023817 /* NSDictionary+ToArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB05D91755BB0F00023817 /* NSDictionary+ToArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		46EB05C21755B9FB00023817 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46EB05C41755B9FB00023817 /* ArrayToDictTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayToDictTests.h; sourceTree = "<group>"; };
 		46EB05C51755B9FB00023817 /* ArrayToDictTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayToDictTests.m; sourceTree = "<group>"; };
+		46EB05D61755BB0F00023817 /* NSArray+ToDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ToDictionary.h"; sourceTree = "<group>"; };
+		46EB05D71755BB0F00023817 /* NSArray+ToDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ToDictionary.m"; sourceTree = "<group>"; };
+		46EB05D81755BB0F00023817 /* NSDictionary+ToArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ToArray.h"; sourceTree = "<group>"; };
+		46EB05D91755BB0F00023817 /* NSDictionary+ToArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ToArray.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,7 @@
 			children = (
 				46EB05A91755B9FB00023817 /* MBAppDelegate.h */,
 				46EB05AA1755B9FB00023817 /* MBAppDelegate.m */,
+				46EB05D51755BB0F00023817 /* Categories */,
 				46EB05A11755B9FB00023817 /* Supporting Files */,
 			);
 			path = ArrayToDict;
@@ -150,6 +159,17 @@
 				46EB05C11755B9FB00023817 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46EB05D51755BB0F00023817 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				46EB05D61755BB0F00023817 /* NSArray+ToDictionary.h */,
+				46EB05D71755BB0F00023817 /* NSArray+ToDictionary.m */,
+				46EB05D81755BB0F00023817 /* NSDictionary+ToArray.h */,
+				46EB05D91755BB0F00023817 /* NSDictionary+ToArray.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +284,8 @@
 			files = (
 				46EB05A71755B9FB00023817 /* main.m in Sources */,
 				46EB05AB1755B9FB00023817 /* MBAppDelegate.m in Sources */,
+				46EB05DA1755BB0F00023817 /* NSArray+ToDictionary.m in Sources */,
+				46EB05DC1755BB0F00023817 /* NSDictionary+ToArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +294,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				46EB05C61755B9FB00023817 /* ArrayToDictTests.m in Sources */,
+				46EB05DB1755BB0F00023817 /* NSArray+ToDictionary.m in Sources */,
+				46EB05DD1755BB0F00023817 /* NSDictionary+ToArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
