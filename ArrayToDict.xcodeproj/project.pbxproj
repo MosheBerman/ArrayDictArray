@@ -61,6 +61,7 @@
 		46EB05D71755BB0F00023817 /* NSArray+ToDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ToDictionary.m"; sourceTree = "<group>"; };
 		46EB05D81755BB0F00023817 /* NSDictionary+ToArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ToArray.h"; sourceTree = "<group>"; };
 		46EB05D91755BB0F00023817 /* NSDictionary+ToArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ToArray.m"; sourceTree = "<group>"; };
+		46EB05DE1755BBC200023817 /* ArrayDictArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDictArray.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +169,7 @@
 				46EB05D71755BB0F00023817 /* NSArray+ToDictionary.m */,
 				46EB05D81755BB0F00023817 /* NSDictionary+ToArray.h */,
 				46EB05D91755BB0F00023817 /* NSDictionary+ToArray.m */,
+				46EB05DE1755BBC200023817 /* ArrayDictArray.h */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
