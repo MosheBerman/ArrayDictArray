@@ -18,6 +18,7 @@
 {
 	NSMutableArray *array = [NSMutableArray new];
 	
+	//	Sort the keys numerically
 	NSArray *keys = [[self allKeys] sortedArrayUsingComparator:^NSComparisonResult(id obj1, id obj2) {
 		NSNumber *n1 = obj1;
 		NSNumber *n2 = obj2;
@@ -25,8 +26,10 @@
 		return [n1 compare:n2];
 	}];
 	
-	for (NSInteger i =0 ; i < [keys count]; i++) {
-		array[i] = self[keys[i]];
+	//	Add each item to the end of the array
+	for (NSInteger i =0 ; i < [keys count]; i++)
+	{
+		[array addObject:self[keys[i]] ];
 	}
 	return array;
 }
